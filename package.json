@@ -1,0 +1,24 @@
+{
+  "name": "next-experimental",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "firebase": "^7.18.0",
+    "next": "^9.5.3-canary.12",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-firebase-hooks": "^2.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "tailwindcss": "^1.7.2"
+  }
+}
